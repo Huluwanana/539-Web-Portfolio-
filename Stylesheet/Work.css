@@ -1,0 +1,186 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+body {
+  color: #3e7c2b;
+  /*position: center;*/
+  /*background-image: url("newbackground.png");
+  background-repeat: repeat-y;*/
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.headerpic1 {
+  position: relative;
+  width:700px;
+  z-index: -1;
+  height: 500px;
+  display: inline-block;
+}
+
+.headertext {
+  position: absolute;
+  text-align: center;
+  font: 25px Century, serif;
+  color:#18143d; 
+  width: 400px;
+  height: 500px;
+  top: 80px;
+  right: 18px;
+
+  }
+.headertext h1 {
+  font-size: 50px;
+}
+
+/* CUSTOMIZE THE NAVBAR */
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.navbar-wrapper .navbar {
+  /*padding-right: 50px;
+  padding-left: 50px;*/
+  display: inline; 
+  position: center;
+
+}
+.navbar-wrapper .container .navbar .nav {
+  color: #4b6f8c;
+  font-size: 20px;
+}
+
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+.active {
+   color: #640200;
+   background-color: #d4d9db;
+}
+li:hover, a:hover {
+    background-color: #f7d4af;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+/* Featurettes*/
+.featurette-divider {
+  margin: 40px; /* Space out the Bootstrap <hr> more */
+  margin-top: 40px;
+}
+
+.featurette-heading {
+  font-family: Garamond, "Courier New", sans-serif;
+  font-size: 30px;
+  line-height: 1.5;
+  letter-spacing: -1px;
+  margin: 30px; 
+  border:none;
+  text-decoration:none;
+}
+
+
+.lead {
+  font-family: Century, Helvetica, sans-serif;
+  font-size: 25px;
+  margin: 30px; 
+}
+div .featurette-image {
+  border-radius: 50px;
+  height:450px;
+  width:400px;
+}
+/*Experience list*/
+.list-background img {
+  position: relative;
+  z-index:-1;
+  height:520px;
+  width: 400px;
+  border-radius: 50px;
+}
+
+/*all about footer style below */
+footer {
+  background: -webkit-linear-gradient(white,#f2c6bc); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(white,#f2c6bc); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(white,#f2c6bc); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(white,#f2c6bc); /* Standard syntax (must be last) */
+  height: 300px;
+  color:#705751;
+  font: bold 16px Georgia, serif;
+  padding-top: 60px;
+}
+/*footer h3{
+  text-align: center;
+  font: bold 25px Georgia, serif;
+}*/
+.container .address p {
+  text-align: left;
+  font-size: 17px;
+
+}
+.errormsg {
+  display:none;
+  color:#307096;
+}
+.navbar-sociallink{
+  display: inline-block;
+}
+.contact-form {
+  display: inline-block;
+  text-align: center;
+}
+
+.footer-centr {
+  text-align: center;
+  font: bold 15px Georgia, serif;
+  color:#705751;
+  margin-top: 30px;
+}
+.copyright {
+  text-align: center;
+  font: bold 15px Georgia, serif;
+  color:#705751;
+  margin-top: 10px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media screen and (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 4px;
+  }
+
+  .featurette-heading {
+    font-size: 80px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .featurette-heading {
+      margin-top: 120px;}
+}
+
+@media screen and (min-width: 1200px) {
+  
+}

@@ -1,0 +1,165 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+body {
+  color: #080f4f;
+  /*position: center;*/
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.headerpic1 img{
+  width:100%;
+  z-index: -1;
+  height: 650px;
+  margin-bottom: 30px;
+}
+
+.headertext {
+  font: 25px Century, serif;
+  position: absolute;
+  text-align: left;
+  font-size: 25px;
+  left: 15%;
+  top: 35%;
+  width: 100%;
+  color:#addef7; 
+  line-height: 120%; 
+}
+
+.headertext h1 {
+  font-size: 50px;
+}
+
+/* CUSTOMIZE THE NAVBAR */
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.navbar-wrapper .navbar {
+  display: inline; 
+  position: center;
+
+}
+.navbar-wrapper .container .navbar .nav {
+  color: #4b6f8c;
+  font-size: 20px;
+}
+
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+.active {
+   color: #d2eff7;
+   background-color: #d2eff7;
+}
+/*li:hover, a:hover {
+    background-color: #b8e3ef;
+    text-decoration: none;
+}*/
+
+/* MARKETING CONTENT*/
+
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing .col-lg-4 img {
+  width:auto;
+  height:230px;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/*all about footer style below */
+footer {
+  background: -webkit-linear-gradient(white,#17375e);  
+  background: -o-linear-gradient(white,#17375e);  
+  background: -moz-linear-gradient(white,#17375e); 
+  background: linear-gradient(white,#17375e); 
+  margin-top: 30px;
+  height: 300px;
+  font: bold 16px Georgia, serif;
+  color:#012756;
+}
+/*footer h3{
+  text-align: center;
+  font: bold 25px Georgia, serif;
+}*/
+.container .address p {
+  text-align: left;
+  font-size: 17px;
+
+}
+.errormsg {
+  display:none;
+  color:#012756;
+}
+.navbar-sociallink img{
+  display: inline-block;
+  height: 30px; 
+  width: 30px;
+}
+.navbar-sociallink {
+  color:#012756;
+}
+.contact-form {
+  display: inline-block;
+  text-align: center;
+}
+
+.footer-centr {
+  text-align: center;
+  font: bold 15px Georgia, serif;
+  color:#adc1f4;
+  margin-top: 30px;
+}
+.copyright {
+  text-align: center;
+  font: bold 15px Georgia, serif;
+  color:#adc1f4;
+  margin-top: 10px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media screen and (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 4px;
+  }
+
+  .featurette-heading {
+    font-size: 80px;}
+}
+
+@media screen and (min-width: 768px) {
+  .featurette-heading {
+      margin-top: 120px;}
+}
+
+@media screen and (min-width: 1200px) {
+  }

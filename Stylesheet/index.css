@@ -1,0 +1,172 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+body {
+  color: #3e7c2b;
+  /*background-image: url("newbackground.png");
+  background-repeat: repeat-y;*/
+}
+
+.headerpic1 img{
+  width:100%;
+  z-index: -1;
+  height: 400px;
+}
+
+.headertext {
+  font: 30px Century, serif;
+  position: absolute;
+  text-align: center;
+  font-size: 25px;
+  left: 0;
+  top: 30%;
+  width: 100%;
+  color:#3b6b11; 
+  line-height: 120%; 
+}
+
+.headertext h1 {
+  font-size: 50px;
+}
+
+/* CUSTOMIZE THE NAVBAR */
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.navbar-wrapper .navbar {
+  /*padding-right: 50px;
+  padding-left: 50px;*/
+  display: inline; 
+  position: center;
+
+}
+.navbar-wrapper .container .navbar .nav {
+  color: #4b6f8c;
+  font-size: 20px;
+}
+
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+.active {
+   color: #640200;
+   background-color: #f9e270;
+}
+.active .AboveMe {
+  background-color: #d4d9db; 
+}
+li:hover, a:hover {
+    background-color: #b8e3ef;
+    text-decoration: none;
+}
+
+/* Featurettes
+------------------------- */
+.featurette-divider {
+  margin: 60px 20px; /* Space out the Bootstrap <hr> more */
+}
+
+.featurette-heading {
+  font-family: Garamond, "Courier New", sans-serif;
+  font-size: 30px;
+  line-height: 1.5;
+  letter-spacing: -1px;
+  margin: 30px; 
+}
+.lead {
+  font-family: Century, Helvetica, sans-serif;
+  font-size: 25px;
+  margin: 30px; 
+}
+
+div .featurette-image {
+  border-radius: 50px;
+  height:500px;
+  width:400px;
+}
+
+/*all about footer style below */
+footer {
+  background: -webkit-linear-gradient(white,#c1f4dd); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(white,#c1f4dd); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(white,#c1f4dd); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(white,#c1f4dd); /* Standard syntax (must be last) */
+  height: 300px;
+  font: bold 16px Georgia, serif;
+}
+/*footer h3{
+  text-align: center;
+  font: bold 25px Georgia, serif;
+}*/
+.container .address p {
+  text-align: left;
+  font-size: 17px;
+
+}
+.errormsg {
+  display:none;
+  color:#307096;
+}
+.navbar-sociallink{
+  display: inline-block;
+}
+.contact-form {
+  display: inline-block;
+  text-align: center;
+}
+
+.footer-centr {
+  text-align: center;
+  font: bold 15px Georgia, serif;
+  color:#59511b;
+  margin-top: 30px;
+}
+.copyright {
+  text-align: center;
+  font: bold 15px Georgia, serif;
+  color:#59511b;
+  margin-top: 10px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+/*    position: absolute;*/
+    z-index: 1;
+}
+  }
+
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+    border-radius: 4px;
+  }
+
+
+  .featurette-heading {
+    font-size: 80px;
+    margin-top: 120px;
+}
+
+
+@media screen and (min-width: 992px) {
+  
+}
+
+@media screen and (min-width: 1200px) {
+  
+}

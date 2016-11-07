@@ -8,15 +8,12 @@ body {
 header {
   width: 100%;
   margin: 0 auto;
-  display: right;
-
 }
 
 .headerpic1 img{
   width:100%;
   z-index: -1;
   height: 650px;
-  display: right;
   margin-bottom: 30px;
 }
 
@@ -26,9 +23,9 @@ header {
   text-align: left;
   font-size: 25px;
   left: 15%;
-  top: 40%;
+  top: 35%;
   width: 100%;
-  color:#3b6b11; 
+  color:#addef7; 
   line-height: 120%; 
 }
 
@@ -47,7 +44,6 @@ header {
 }
 
 .navbar-wrapper .navbar {
-  background-color: #ffffff;
   display: inline; 
   position: center;
 
@@ -64,10 +60,10 @@ header {
    color: #d2eff7;
    background-color: #d2eff7;
 }
-li:hover, a:hover {
+/*li:hover, a:hover {
     background-color: #b8e3ef;
     text-decoration: none;
-}
+}*/
 
 /* MARKETING CONTENT*/
 
@@ -76,8 +72,8 @@ li:hover, a:hover {
   text-align: center;
 }
 .marketing .col-lg-4 img {
-  width:200px;
-  height:200px;
+  width:auto;
+  height:230px;
 }
 .marketing h2 {
   font-weight: normal;
@@ -89,14 +85,14 @@ li:hover, a:hover {
 
 /*all about footer style below */
 footer {
-  /*background: -webkit-linear-gradient(white,#c1f4dd); /* For Safari 5.1 to 6.0 */
-  /*background: -o-linear-gradient(white,#c1f4dd); *//* For Opera 11.1 to 12.0 */
-  /*background: -moz-linear-gradient(white,#c1f4dd);*/ /* For Firefox 3.6 to 15 */
-  /*background: linear-gradient(white,#c1f4dd);*/ /* Standard syntax (must be last) */*/
+  background: -webkit-linear-gradient(white,#17375e);  
+  background: -o-linear-gradient(white,#17375e);  
+  background: -moz-linear-gradient(white,#17375e); 
+  background: linear-gradient(white,#17375e); 
   margin-top: 30px;
   height: 300px;
   font: bold 16px Georgia, serif;
-  color:#adc1f4;
+  color:#012756;
 }
 /*footer h3{
   text-align: center;
@@ -109,15 +105,15 @@ footer {
 }
 .errormsg {
   display:none;
-  color:#307096;
+  color:#012756;
 }
 .navbar-sociallink img{
   display: inline-block;
-  height: 30px; !important;
-  width: 30px;!important;
+  height: 30px; 
+  width: 30px;
 }
 .navbar-sociallink {
-  color:#adc1f4;
+  color:#012756;
 }
 .contact-form {
   display: inline-block;
@@ -127,7 +123,7 @@ footer {
 .footer-centr {
   text-align: center;
   font: bold 15px Georgia, serif;
-  color:#59511b;
+  color:#adc1f4;
   margin-top: 30px;
 }
 .copyright {
@@ -156,25 +152,14 @@ footer {
     border-radius: 4px;
   }
 
-...{
-  display:inline-block;
-  width: 50%;
-  font-size: 125%;
-}
   .featurette-heading {
-    font-size: 80px;
-  }
+    font-size: 80px;}
 }
 
 @media screen and (min-width: 768px) {
   .featurette-heading {
-      margin-top: 120px;
-  }
+      margin-top: 120px;}
 }
 
 @media screen and (min-width: 1200px) {
-  
-}
-@media print and (){
-
-}
+  }
